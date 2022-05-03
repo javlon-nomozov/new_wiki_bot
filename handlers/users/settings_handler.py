@@ -11,7 +11,7 @@ from loader import dp, db
 translator = Translator
 
 
-@dp.message_handler(commands='setting')
+@dp.message_handler(commands='settings')
 async def setting(msg: Message):
     user = db.select_user(id=msg.from_user.id)
     lang = user[3]

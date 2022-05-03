@@ -24,7 +24,7 @@ async def comunity(msg: Message):
 async def donate(msg: Message):
     text = translator.translate(text="Qo'llab quvvatlovchilar uchun:").text
 
-    await msg.reply(f"{text}\ncard: xxxx xx xx xxxx")
+    await msg.reply(f"{text}\nVisa card: 4023 0602 3763 4653\nUnionPay card: 6210 4501 9045 9206")
 
 
 
